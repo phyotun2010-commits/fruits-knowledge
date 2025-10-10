@@ -1,0 +1,220 @@
+
+@import url('https://fonts.cdnfonts.com/css/omnes-2');
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none !important;
+}
+.shopname{
+    font-family: monospace;
+}
+.and{
+  color: orange;
+}
+.signupbtn{
+  border-radius: 50px;
+  background: rgb(255, 200, 61);
+}
+.navbar{
+  border-radius:0px 0px 50px 50px;
+}
+.btn, .card, .back {
+  text-decoration: none ;
+  animation: grow ;
+  transition: 0.2s;
+}
+.btn:hover, .card:hover, .back:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.2s;
+  box-shadow: 8px 8px 8px #292929cc;
+}
+.homepage-title{
+  font-family: 'Omnes', sans-serif;
+  font-size: 40px;
+  margin-top: 320px;
+}
+.homepageletter, .aboutusletter{
+  font-size: 25px;
+font-family: 'Omnes', sans-serif; 
+}
+.card-title, footer, h1, h3, p, h2, h4{
+  font-family: 'Omnes', sans-serif !important;
+}
+.card-body{
+  font-family: 'Omnes', sans-serif;font-size: 22px;
+}
+.seeallbtn{
+  background: orange !important;
+  padding: 8px 20px !important;
+  border-radius: 50px !important;
+}
+.seeallbtn:hover, .seemorebtn:hover{
+  transform: scale(1.2, 1.2) !important;
+  transition: 0.5s  !important;
+}
+.seeallbtn, .seemorebtn{
+  transition: 0.2s !important ;
+}
+
+.seemorebtn, .back, .seeallfruit{
+  border-radius: 50px !important;
+}
+
+/* healthy food */
+
+.hfimg{
+  width: 600px;
+  height: 600px;
+}
+.hftitle, .hfletter, .ddayletter{
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Omnes', sans-serif;
+  align-items: center;
+}
+.footerdesign{
+  background: #dd4343;
+}
+.wave {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.wave .shape-fill {
+  fill: #ffffff;
+}
+.inputemail{
+  width: 44vh;
+  height: 6vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.label{
+  position: relative;
+}
+.input{
+  border: 0;
+  padding: 15px;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.signmeup{
+  position: absolute;
+  width: 135px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border:  0;
+  padding: 15px;
+  background: rgb(253 148 0);
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 20px;
+}
+.signmeup:hover, .SUBMIT:hover{
+  background: rgb(255, 169, 49) !important;
+}
+.nav-link:hover{
+  color:  rgb(253, 148, 0) !important;
+}
+  /* model card */
+
+
+  /* body {font-family: Arial, Helvetica, sans-serif;} */
+
+  /* img{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  } */
+  
+  /* img:hover {opacity: 0.7;}
+   */
+  /* The Modal (background) */
+  /* .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);  
+    background-color: rgba(0,0,0,0.9); 
+  } */
+  
+  /* Modal Content (image) */
+  /* .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  } */
+  
+  /* Caption of Modal Image */
+  /* #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  } */
+  
+  /* Add Animation */
+  /* .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  } */
+  
+  /* @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  } */
+  
+  /* @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  } */
+  
+  /* The Close Button */
+  /* .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  } */
+  
+  /* .close:hover, */
+  /* .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  } */
+  
+  /* 100% Image Width on Smaller Screens */
+  /* @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  } */
